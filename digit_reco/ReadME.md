@@ -23,7 +23,7 @@ The main code is in the Jupyter notebook `digit_reco.ipynb`. The `digit-recogniz
    
 2. Run the cells in order to load the necessary libraries, load the data, train the neural network, and make predictions.
    
-3. The data is loaded from the `train.csv` and `test.csv` files in the `digit-recognizer` directory. The `train.csv` file is used to train the   neural network and the `test.csv` file is used to test the network's predictions. Due to GitHub policythe dataset can't be store, to download it enter the following command in a terminal :
+3. The data is loaded from the `train.csv` and `test.csv` files in the `digit-recognizer` directory. The `train.csv` file is used to train the   neural network and the `test.csv` file is used to test the network's predictions. Due to GitHub policies the dataset can't be store, to download it enter the following command in a terminal :
    `kaggle competitions download -c digit-recognizer`
    
 4. The neural network is trained using the `gradient_descent` or `gradient_descent_adam` functions. These functions take the training data and some parameters for the gradient descent algorithm and return the weights and biases of the trained network.
